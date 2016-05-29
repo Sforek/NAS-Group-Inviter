@@ -44,6 +44,6 @@ else if (UserInput = "06")
     Send, {backspace 3}NASxma
 else if (UserInput = "07")
     Send, {backspace 3}NASxFsociety	
-else if (UserInput = "07")
+else if (UserInput = "08")
     Send, {backspace 3}NASxRussski
 return
