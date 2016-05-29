@@ -1,6 +1,6 @@
 ; Download and install Autohotkey from  http://autohotkey.com/
 ; Download or copy/paste this script to whatever.ahk
-; Run it
+; Run it (just double klick whatever.ahk)
 ; In game open TAB -> Group and activate the "Invite to Group" input field
 ; Press + on the numeric keyboard folowed by a player code
 
