@@ -14,7 +14,7 @@
 ; +08 -> NASxRussski
 ; +09 -> NASxKerty
 ; +10 -> NASxOPGamer
-; +11 -> NNASxVancy
+; +11 -> NASxVancy
 
 #SingleInstance
 #IfWinActive H1Z1
