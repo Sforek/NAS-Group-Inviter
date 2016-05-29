@@ -12,12 +12,14 @@
 ; +06 -> NASxma
 ; +07 -> NASxFsociety
 ; +08 -> NASxRussski
+; +09 -> NASxKerty
+; +10 -> NASxOPGamer
 
 #SingleInstance
 #IfWinActive H1Z1
 
 ~NumpadAdd::
-Input, UserInput, V T5 L4 C, {enter}.{esc}{tab}, 01,02,03,04,05,06,07,08
+Input, UserInput, V T5 L4 C, {enter}.{esc}{tab}, 01,02,03,04,05,06,07,08,09,10
 if (ErrorLevel = "Max")
     return
 
@@ -46,4 +48,8 @@ else if (UserInput = "07")
     Send, {backspace 3}NASxFsociety	
 else if (UserInput = "08")
     Send, {backspace 3}NASxRussski
+else if (UserInput = "09")
+    Send, {backspace 3}NASxKerty
+else if (UserInput = "10")
+    Send, {backspace 3}NASxOPGamer
 return
