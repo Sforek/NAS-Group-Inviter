@@ -1,3 +1,16 @@
+; Download and install Autohotkey from  http://autohotkey.com/
+; Download or copy/paste this script to whatever.ahk
+; Run it
+; In game open TAB -> Group and activate the "Invite to Group" input field
+; Press + on the numeric keyboard folowed by a player code
+
+; +01 -> NASxSforek
+; +02 -> NASxKryptyk
+; +03 -> NASxTeddie
+; +04 -> NASxshmurda
+; +05 -> NASxixy
+; +06 -> NASxma
+
 #SingleInstance
 #IfWinActive H1Z1
 
