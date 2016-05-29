@@ -15,12 +15,13 @@
 ; +09 -> NASxKerty
 ; +10 -> NASxOPGamer
 ; +11 -> NASxVancy
+; +12 -> NASxSpaceInvader
 
 #SingleInstance
 #IfWinActive H1Z1
 
 ~NumpadAdd::
-Input, UserInput, V T5 L4 C, {enter}.{esc}{tab}, 01,02,03,04,05,06,07,08,09,10,11
+Input, UserInput, V T5 L4 C, {enter}.{esc}{tab}, 01,02,03,04,05,06,07,08,09,10,11,12
 if (ErrorLevel = "Max")
     return
 
@@ -55,4 +56,6 @@ else if (UserInput = "10")
     Send, {backspace 3}NASxOPGamer
 else if (UserInput = "11")
     Send, {backspace 3}NASxVancy
+else if (UserInput = "12")
+    Send, {backspace 3}NASxSpaceInvader	
 return
