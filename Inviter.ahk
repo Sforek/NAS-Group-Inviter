@@ -16,12 +16,18 @@
 ; +10 -> NASxOPGamer
 ; +11 -> NASxVancy
 ; +12 -> NASxSpaceInvader
+; +13 -> NASxAREyouFAM
+; +14 -> NASxsfnative93
+; +15 -> NASxcfed
+; +16 -> NASxCorleone
+; +17 -> NASxAkelaan
+
 
 #SingleInstance
 #IfWinActive H1Z1
 
 ~NumpadAdd::
-Input, UserInput, V T5 L4 C, {enter}.{esc}{tab}, 01,02,03,04,05,06,07,08,09,10,11,12
+Input, UserInput, V T5 L4 C, {enter}.{esc}{tab}, 01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17
 if (ErrorLevel = "Max")
     return
 
@@ -58,4 +64,14 @@ else if (UserInput = "11")
     Send, {backspace 3}NASxVancy
 else if (UserInput = "12")
     Send, {backspace 3}NASxSpaceInvader	
+else if (UserInput = "13")
+    Send, {backspace 3}NASxAREyouFAM
+else if (UserInput = "14")
+    Send, {backspace 3}NASxsfnative93
+else if (UserInput = "15")
+    Send, {backspace 3}NASxcfed
+else if (UserInput = "16")
+    Send, {backspace 3}NASxCorleone	
+else if (UserInput = "17")
+    Send, {backspace 3}NASxAkelaan	
 return
