@@ -18,7 +18,7 @@
 ; +12 -> NASxSpaceInvader
 ; +13 -> NASxAREyouFAM
 ; +14 -> NASxsfnative93
-; +15 -> NASxcfed
+; +15 -> NASxCFed
 ; +16 -> NASxCorleone
 ; +17 -> NASxAkelaan
 
@@ -69,7 +69,7 @@ else if (UserInput = "13")
 else if (UserInput = "14")
     Send, {backspace 3}NASxsfnative93
 else if (UserInput = "15")
-    Send, {backspace 3}NASxcfed
+    Send, {backspace 3}NASxCFed
 else if (UserInput = "16")
     Send, {backspace 3}NASxCorleone	
 else if (UserInput = "17")
