@@ -22,12 +22,13 @@
 ; +16 -> NASxCorleone
 ; +17 -> NASxAkelaan
 ; +18 -> NASxstarwars
+; +19 -> NASxNiels
 
 #SingleInstance
 #IfWinActive H1Z1
 
 ~NumpadAdd::
-Input, UserInput, V T5 L4 C, {enter}.{esc}{tab}, 01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18
+Input, UserInput, V T5 L4 C, {enter}.{esc}{tab}, 01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,19
 if (ErrorLevel = "Max")
     return
 
@@ -76,4 +77,6 @@ else if (UserInput = "17")
     Send, {backspace 3}NASxAkelaan	
 else if (UserInput = "18")
     Send, {backspace 3}NASxstarwars	
+else if (UserInput = "19")
+    Send, {backspace 3}NASxNiels
 return
